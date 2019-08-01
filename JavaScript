@@ -1,0 +1,22 @@
+var statement = 75;
+if (statement !== 100){fill(90, 90, 20);
+textSize(30);
+background(58, 151, 179);
+text("STUFFED creatures!", 56, 24);
+image(getImage("avatars/mr-pink-green"),293,182,80,90);
+image(getImage("avatars/mr-pink"),8,182,80,90);
+image(getImage("avatars/mr-pink-orange"),148,182,80,90);
+image(getImage("avatars/questionmark"),148,302,80,80);
+fill(0,0,255);
+textSize(18);
+text("These stuffed creatures have VERY soft fur!",17,70);
+text("*They are only $9.99 and $19.99 for 3 of them!",17,105);
+text("So what are you waitin' for? Get yours now!!!",17,170);
+textSize(11);
+text("There's also a MyStErY creature, and even we don't know what it looks like!",19,134);
+textSize(6);
+fill(0, 0, 0);
+text("Terms & Conditions apply.",326,396);
+fill(0, 0,255);
+textSize(12);
+text("*",319,398);}
